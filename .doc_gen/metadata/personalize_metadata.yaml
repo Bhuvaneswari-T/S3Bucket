@@ -280,23 +280,6 @@ personalize_getRecommendations:
                 - personalize.JavaScript.getRecommendationsWithFilterV3
   services:
     organizations: {GetRecommendations}
-personalize_listSchemas:
-  title:  List your &PER; schemas using an &AWS; SDK
-  title_abbrev: List schemas
-  synopsis: list &PER; schemas.
-  category:
-  languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.listSchemaV3
-  services:
-    organizations: {ListSchemas}
 personalize_putEvents:
   title:  Import real-time interaction event data into &PER; using an &AWS; SDK
   title_abbrev: Import real-time interaction event data
