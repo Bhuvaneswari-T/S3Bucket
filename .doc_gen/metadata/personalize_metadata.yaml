@@ -1,0 +1,350 @@
+# zexi 0.4.2
+personalize_createBatchInferenceJob:
+  title:  Create an a batch inference job with &PER; using an &AWS; SDK
+  title_abbrev: Create a batch interface job
+  synopsis: create a &PER; batch interface job.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createBatchInferenceJobV3
+  services:
+    personalize: {CreateBatchInferenceJob}
+personalize_createBatchSegmentJob:
+  title:  Create an a batch segment job with &PER; using an &AWS; SDK
+  title_abbrev: Create a batch segment job
+  synopsis: create a &PER; batch segment job.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createBatchSegmentJobV3
+  services:
+    organizations: {CreateBatchSegmentJob}
+personalize_createCampaign:
+  title:  Create a campaign with &PER; using an &AWS; SDK
+  title_abbrev: Create a campaign
+  synopsis: create a &PER; campaign.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createCampaignV3
+  services:
+    organizations: {CreateCampaign}
+personalize_createDataset:
+  title:  Create a dataset with &PER; using an &AWS; SDK
+  title_abbrev: Create a dataset
+  synopsis: create a &PER; dataset.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createDatasetV3
+  services:
+    organizations: {CreateDataset}
+personalize_createDatasetExportJob:
+  title:  Create a dataset export job with &PER; using an &AWS; SDK
+  title_abbrev: Create a dataset export job
+  synopsis: create a &PER; dataset export job.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createDatasetExportJobV3
+  services:
+    organizations: {CreateDatasetExportJob}
+personalize_createDatasetGroup:
+  title:  Create a dataset group with &PER; using an &AWS; SDK
+  title_abbrev: Create a dataset group
+  synopsis: create a &PER; dataset group.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createDatasetGroupV3
+            - description: Create a domain dataset group.
+              snippet_tags:
+                - personalize.JavaScript.createDomainDatasetGroupV3
+  services:
+    organizations: {CreateDatasetGroup}
+personalize_createDatasetImportJob:
+  title:  Create a dataset import job with &PER; using an &AWS; SDK
+  title_abbrev: Create a dataset import job
+  synopsis: create a &PER; dataset import job.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createDatasetImportJobV3
+  services:
+    organizations: {CreateDatasetImportJob}
+personalize_createDomainSchema:
+  title:  Create a domain schema with &PER; using an &AWS; SDK
+  title_abbrev: Create a domain schema
+  synopsis: create a &PER; domain schema.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createDomainSchemaV3
+  services:
+    organizations: {CreateSchema}
+personalize_createEventTracker:
+  title:  Create an event tracker with &PER; using an &AWS; SDK
+  title_abbrev: Create an event tracker
+  synopsis: create a &PER; event tracker.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createEventTrackerV3
+  services:
+    organizations: {CreateEventTracker}
+personalize_createFilter:
+  title:  Create a filter with &PER; using an &AWS; SDK
+  title_abbrev: Create a filter
+  synopsis: create a &PER; filter.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createFilterV3
+  services:
+    organizations: {CreateFilter}
+personalize_createRecommender:
+  title:  Create a recommender with &PER; using an &AWS; SDK
+  title_abbrev: Create a recommender
+  synopsis: create a &PER; recommender.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createRecommenderV3
+  services:
+    organizations: {CreateRecommender}
+personalize_createSchema:
+  title:  Create a schema with &PER; using an &AWS; SDK
+  title_abbrev: Create a schema
+  synopsis: create a &PER; schema.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createSchemaV3
+  services:
+    organizations: {CreateSchema}
+personalize_createSolution:
+  title:  Create a solution with &PER; using an &AWS; SDK
+  title_abbrev: Create a solution
+  synopsis: create a &PER; solution.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createSolutionV3
+  services:
+    organizations: {CreateSolution}
+personalize_createSolutionVersion:
+  title:  Create a solution version with &PER; using an &AWS; SDK
+  title_abbrev: Create a solution version
+  synopsis: create a &PER; solution.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.createSolutionVersionV3
+  services:
+    organizations: {CreateSolutionVersion}
+personalize_getPersonalizedRanking:
+  title:  Get ranked recommendations from a campaign created in a custom dataset group with &PER; using an &AWS; SDK
+  title_abbrev: Get recommendations (custom dataset group)
+  synopsis: get &PER; ranked recommendations.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.getPersonalizedRankingV3
+  services:
+    organizations: {GetPersonalizedRanking}
+personalize_getRecommendations:
+  title:  Get recommendations from a campaign created in a custom dataset group with &PER; using an &AWS; SDK
+  title_abbrev: Get recommendations from a recommender (domain dataset group)
+  synopsis: get &PER; recommendations.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.getRecommendationsV3
+            - description: Get recommendation with a filter (custom dataset group).
+              snippet_tags:
+                - personalize.JavaScript.getRecommendationsFromRecommenderV3
+            - description: Get filtered recommendations from a recommender created in a domain dataset group.
+              snippet_tags:
+                - personalize.JavaScript.getRecommendationsWithFilterV3
+  services:
+    organizations: {GetRecommendations}
+personalize_listSchemas:
+  title:  List your &PER; schemas using an &AWS; SDK
+  title_abbrev: List schemas
+  synopsis: list &PER; schemas.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.listSchemaV3
+  services:
+    organizations: {ListSchemas}
+personalize_putEvents:
+  title:  Import real-time interaction event data into &PER; using an &AWS; SDK
+  title_abbrev: Import real-time interaction event data
+  synopsis: import real-time interaction event data into &PER.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.putEventsV3
+  services:
+    organizations: {PutEvents}
+personalize_putItems:
+  title:  incrementally import an item into an &PER; using an &AWS; SDK
+  title_abbrev: Import real-time interaction event data
+  synopsis: Import real-time interaction event data into &PER;.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.putItemsV3
+  services:
+    organizations: {PutItems}
+personalize_putUsers:
+  title:  incrementally import a user into an &PER; using an &AWS; SDK
+  title_abbrev: Incrementally import a user
+  synopsis: Incrementally import a user into &PER;.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.JavaScript.putUsersV3
+  services:
+    organizations: {PutUsers}
