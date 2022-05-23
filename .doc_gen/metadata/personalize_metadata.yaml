@@ -283,7 +283,7 @@ personalize_getRecommendations:
 personalize_putEvents:
   title:  Import real-time interaction event data into &PER; using an &AWS; SDK
   title_abbrev: Import real-time interaction event data
-  synopsis: import real-time interaction event data into &PER.
+  synopsis: import real-time interaction event data into &PER;.
   category:
   languages:
     JavaScript:
