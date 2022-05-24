@@ -14,6 +14,15 @@ personalize_createBatchInferenceJob:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createBatchInferenceJobV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_batch_inference_job.import
   services:
     personalize: {CreateBatchInferenceJob}
 personalize_createBatchSegmentJob:
@@ -47,7 +56,16 @@ personalize_createCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.JavaScript.createCampaignV3
+                - personalize.java2.create_campaign.import
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_campaign.import
   services:
     personalize: {CreateCampaign}
 personalize_createDataset:
@@ -65,6 +83,15 @@ personalize_createDataset:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createDatasetV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_dataset.import
   services:
     personalize: {CreateDataset}
 personalize_createDatasetExportJob:
@@ -82,6 +109,15 @@ personalize_createDatasetExportJob:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createDatasetExportJobV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_dataset_export_job.import
   services:
     personalize: {CreateDatasetExportJob}
 personalize_createDatasetGroup:
@@ -102,6 +138,18 @@ personalize_createDatasetGroup:
             - description: Create a domain dataset group.
               snippet_tags:
                 - personalize.JavaScript.createDomainDatasetGroupV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_dataset_group.import
+            - description: Create a domain dataset group.
+              snippet_tags:
+                - personalize.java2.create_domain_dataset_group.import
   services:
     personalize: {CreateDatasetGroup}
 personalize_createDatasetImportJob:
@@ -119,6 +167,15 @@ personalize_createDatasetImportJob:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createDatasetImportJobV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_dataset_import_job.import
   services:
     personalize: {CreateDatasetImportJob}
 personalize_createDomainSchema:
@@ -136,6 +193,15 @@ personalize_createDomainSchema:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createDomainSchemaV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_domain_schema.import
   services:
     personalize: {CreateSchema}
 personalize_createEventTracker:
@@ -153,6 +219,15 @@ personalize_createEventTracker:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createEventTrackerV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_event_tracker.import
   services:
     personalize: {CreateEventTracker}
 personalize_createFilter:
@@ -170,6 +245,15 @@ personalize_createFilter:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createFilterV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_filter.import
   services:
     personalize: {CreateFilter}
 personalize_createRecommender:
@@ -187,6 +271,15 @@ personalize_createRecommender:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createRecommenderV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_recommender.import
   services:
     personalize: {CreateRecommender}
 personalize_createSchema:
@@ -204,6 +297,15 @@ personalize_createSchema:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createSchemaV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_schema.import
   services:
     personalize: {CreateSchema}
 personalize_createSolution:
@@ -221,6 +323,15 @@ personalize_createSolution:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createSolutionV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_solution.import
   services:
     personalize: {CreateSolution}
 personalize_createSolutionVersion:
@@ -238,6 +349,15 @@ personalize_createSolutionVersion:
             - description:
               snippet_tags:
                 - personalize.JavaScript.createSolutionVersionV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.create_solution_version.import
   services:
     personalize: {CreateSolutionVersion}
 personalize_getPersonalizedRanking:
@@ -255,6 +375,15 @@ personalize_getPersonalizedRanking:
             - description:
               snippet_tags:
                 - personalize.JavaScript.getPersonalizedRankingV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.get_personalized_ranking.import
   services:
     personalize: {GetPersonalizedRanking}
 personalize_getRecommendations:
@@ -278,8 +407,193 @@ personalize_getRecommendations:
             - description: Get filtered recommendations from a recommender created in a domain dataset group.
               snippet_tags:
                 - personalize.JavaScript.getRecommendationsWithFilterV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description: Get a list of recommended items.
+              snippet_tags:
+                - personalize.java2.get_recommendations.import
+            - description: Get a list of recommended items from a recommender created in a domain dataset group.
+              snippet_tags:
+                - personalize.java2.get_recommendations_from_recommender.import
+            - description: Use a filter when requesting recommendations.
+              snippet_tags:
+                - personalize.java2.filter_recommendations.import
   services:
     personalize: {GetRecommendations}
+personalize_deleteCampaign:
+  title:  Delete a campaign in &PER; using an &AWS; SDK
+  title_abbrev: Delete a campaign
+  synopsis: delete a campaign in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.delete_campaign.import
+  services:
+    personalize: {DeleteCampaign}
+personalize_deleteEventTracker:
+  title:  Delete an event tracker in &PER; using an &AWS; SDK
+  title_abbrev: Delete an event tracker
+  synopsis: delete an event tracker in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.delete_event_tracker.import
+  services:
+    personalize: {DeleteEventTracker}
+personalize_deleteSolution:
+  title:  Delete a solution in &PER; using an &AWS; SDK
+  title_abbrev: Delete a solution
+  synopsis: delete a solution in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.delete_solution.import
+  services:
+    personalize: {DeleteSolution}
+personalize_describeCampaign:
+  title:  Describe a campaign in &PER; using an &AWS; SDK
+  title_abbrev: Describe a campaign
+  synopsis: describe a campaign in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.describe_campaign.import
+  services:
+    personalize: {DescribeCampaign}
+personalize_describeRecipe:
+  title:  Describe a recipe in &PER; using an &AWS; SDK
+  title_abbrev: Describe a recipe
+  synopsis: describe a recipe in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.describe_recipe.import
+  services:
+    personalize: {DescribeRecipe}
+personalize_describeSolution:
+  title:  Describe a solution in &PER; using an &AWS; SDK
+  title_abbrev: Describe a solution
+  synopsis: describe a solution in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.describe_solution.import
+  services:
+    personalize: {DescribeSolution}
+personalize_listCampaigns:
+  title:  List campaigns in &PER; using an &AWS; SDK
+  title_abbrev: List campaigns
+  synopsis: list campaigns in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.list_campaigns.import
+  services:
+    personalize: {ListCampaigns}
+personalize_listDatasetGroups:
+  title:  List dataset groups in &PER; using an &AWS; SDK
+  title_abbrev: List dataset groups
+  synopsis: list dataset groups in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.list_dsgroups.import
+  services:
+    personalize: {ListDatasetGroups}
+personalize_listRecipes:
+  title:  List recipes in &PER; using an &AWS; SDK
+  title_abbrev: List recipes
+  synopsis: list recipes in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.list_recipes.import
+  services:
+    personalize: {ListRecipes}
+personalize_listSolutions:
+  title:  List solutions in &PER; using an &AWS; SDK
+  title_abbrev: List solutions
+  synopsis: list solutions in &PER;.
+  category:
+  languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.list_solutions.import
+  services:
+    personalize: {ListSolutions}
 personalize_putEvents:
   title:  Import real-time interaction event data into &PER; using an &AWS; SDK
   title_abbrev: Import real-time interaction event data
@@ -295,6 +609,15 @@ personalize_putEvents:
             - description:
               snippet_tags:
                 - personalize.JavaScript.putEventsV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.put_events.import
   services:
     personalize: {PutEvents}
 personalize_putItems:
@@ -312,6 +635,15 @@ personalize_putItems:
             - description:
               snippet_tags:
                 - personalize.JavaScript.putItemsV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.put_items.import
   services:
     personalize: {PutItems}
 personalize_putUsers:
@@ -329,5 +661,31 @@ personalize_putUsers:
             - description:
               snippet_tags:
                 - personalize.JavaScript.putUsersV3
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.put_users.import
   services:
     personalize: {PutUsers}
+personalize_updateCampaign:
+  title:  Update a campaign in &PER; using an &AWS; SDK
+  title_abbrev: Update a campaign
+  synopsis: Update a campaign &PER;.
+  category:
+  languages:
+    JavaScript:
+      versions:
+        - sdk_version: 3
+          github: javascipt/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.update_campaign.import
+  services:
+    personalize: {UpdateCampaign}
