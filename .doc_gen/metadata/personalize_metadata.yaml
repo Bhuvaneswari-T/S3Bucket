@@ -32,7 +32,7 @@ personalize_createBatchSegmentJob:
               snippet_tags:
                 - personalize.JavaScript.createBatchSegmentJobV3
   services:
-    organizations: {CreateBatchSegmentJob}
+    personalize: {CreateBatchSegmentJob}
 personalize_createCampaign:
   title:  Create a campaign with &PER; using an &AWS; SDK
   title_abbrev: Create a campaign
@@ -49,7 +49,7 @@ personalize_createCampaign:
               snippet_tags:
                 - personalize.JavaScript.createCampaignV3
   services:
-    organizations: {CreateCampaign}
+    personalize: {CreateCampaign}
 personalize_createDataset:
   title:  Create a dataset with &PER; using an &AWS; SDK
   title_abbrev: Create a dataset
@@ -66,7 +66,7 @@ personalize_createDataset:
               snippet_tags:
                 - personalize.JavaScript.createDatasetV3
   services:
-    organizations: {CreateDataset}
+    personalize: {CreateDataset}
 personalize_createDatasetExportJob:
   title:  Create a dataset export job with &PER; using an &AWS; SDK
   title_abbrev: Create a dataset export job
@@ -83,7 +83,7 @@ personalize_createDatasetExportJob:
               snippet_tags:
                 - personalize.JavaScript.createDatasetExportJobV3
   services:
-    organizations: {CreateDatasetExportJob}
+    personalize: {CreateDatasetExportJob}
 personalize_createDatasetGroup:
   title:  Create a dataset group with &PER; using an &AWS; SDK
   title_abbrev: Create a dataset group
@@ -103,7 +103,7 @@ personalize_createDatasetGroup:
               snippet_tags:
                 - personalize.JavaScript.createDomainDatasetGroupV3
   services:
-    organizations: {CreateDatasetGroup}
+    personalize: {CreateDatasetGroup}
 personalize_createDatasetImportJob:
   title:  Create a dataset import job with &PER; using an &AWS; SDK
   title_abbrev: Create a dataset import job
@@ -120,7 +120,7 @@ personalize_createDatasetImportJob:
               snippet_tags:
                 - personalize.JavaScript.createDatasetImportJobV3
   services:
-    organizations: {CreateDatasetImportJob}
+    personalize: {CreateDatasetImportJob}
 personalize_createDomainSchema:
   title:  Create a domain schema with &PER; using an &AWS; SDK
   title_abbrev: Create a domain schema
@@ -137,7 +137,7 @@ personalize_createDomainSchema:
               snippet_tags:
                 - personalize.JavaScript.createDomainSchemaV3
   services:
-    organizations: {CreateSchema}
+    personalize: {CreateSchema}
 personalize_createEventTracker:
   title:  Create an event tracker with &PER; using an &AWS; SDK
   title_abbrev: Create an event tracker
@@ -154,7 +154,7 @@ personalize_createEventTracker:
               snippet_tags:
                 - personalize.JavaScript.createEventTrackerV3
   services:
-    organizations: {CreateEventTracker}
+    personalize: {CreateEventTracker}
 personalize_createFilter:
   title:  Create a filter with &PER; using an &AWS; SDK
   title_abbrev: Create a filter
@@ -171,7 +171,7 @@ personalize_createFilter:
               snippet_tags:
                 - personalize.JavaScript.createFilterV3
   services:
-    organizations: {CreateFilter}
+    personalize: {CreateFilter}
 personalize_createRecommender:
   title:  Create a recommender with &PER; using an &AWS; SDK
   title_abbrev: Create a recommender
@@ -188,7 +188,7 @@ personalize_createRecommender:
               snippet_tags:
                 - personalize.JavaScript.createRecommenderV3
   services:
-    organizations: {CreateRecommender}
+    personalize: {CreateRecommender}
 personalize_createSchema:
   title:  Create a schema with &PER; using an &AWS; SDK
   title_abbrev: Create a schema
@@ -205,7 +205,7 @@ personalize_createSchema:
               snippet_tags:
                 - personalize.JavaScript.createSchemaV3
   services:
-    organizations: {CreateSchema}
+    personalize: {CreateSchema}
 personalize_createSolution:
   title:  Create a solution with &PER; using an &AWS; SDK
   title_abbrev: Create a solution
@@ -222,7 +222,7 @@ personalize_createSolution:
               snippet_tags:
                 - personalize.JavaScript.createSolutionV3
   services:
-    organizations: {CreateSolution}
+    personalize: {CreateSolution}
 personalize_createSolutionVersion:
   title:  Create a solution version with &PER; using an &AWS; SDK
   title_abbrev: Create a solution version
@@ -239,7 +239,7 @@ personalize_createSolutionVersion:
               snippet_tags:
                 - personalize.JavaScript.createSolutionVersionV3
   services:
-    organizations: {CreateSolutionVersion}
+    personalize: {CreateSolutionVersion}
 personalize_getPersonalizedRanking:
   title:  Get ranked recommendations from a campaign created in a custom dataset group with &PER; using an &AWS; SDK
   title_abbrev: Get recommendations (custom dataset group)
@@ -256,7 +256,7 @@ personalize_getPersonalizedRanking:
               snippet_tags:
                 - personalize.JavaScript.getPersonalizedRankingV3
   services:
-    organizations: {GetPersonalizedRanking}
+    personalize: {GetPersonalizedRanking}
 personalize_getRecommendations:
   title:  Get recommendations from a campaign created in a custom dataset group with &PER; using an &AWS; SDK
   title_abbrev: Get recommendations from a recommender (domain dataset group)
@@ -279,7 +279,7 @@ personalize_getRecommendations:
               snippet_tags:
                 - personalize.JavaScript.getRecommendationsWithFilterV3
   services:
-    organizations: {GetRecommendations}
+    personalize: {GetRecommendations}
 personalize_putEvents:
   title:  Import real-time interaction event data into &PER; using an &AWS; SDK
   title_abbrev: Import real-time interaction event data
@@ -296,7 +296,7 @@ personalize_putEvents:
               snippet_tags:
                 - personalize.JavaScript.putEventsV3
   services:
-    organizations: {PutEvents}
+    personalize: {PutEvents}
 personalize_putItems:
   title:  incrementally import an item into an &PER; using an &AWS; SDK
   title_abbrev: Import real-time interaction event data
@@ -313,7 +313,7 @@ personalize_putItems:
               snippet_tags:
                 - personalize.JavaScript.putItemsV3
   services:
-    organizations: {PutItems}
+    personalize: {PutItems}
 personalize_putUsers:
   title:  incrementally import a user into an &PER; using an &AWS; SDK
   title_abbrev: Incrementally import a user
@@ -330,4 +330,4 @@ personalize_putUsers:
               snippet_tags:
                 - personalize.JavaScript.putUsersV3
   services:
-    organizations: {PutUsers}
+    personalize: {PutUsers}
