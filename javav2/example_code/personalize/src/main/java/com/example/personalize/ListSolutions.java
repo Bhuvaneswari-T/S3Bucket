@@ -22,7 +22,6 @@ import software.amazon.awssdk.services.personalize.model.SolutionSummary;
 import software.amazon.awssdk.services.personalize.model.PersonalizeException;
 import java.util.List;
 //snippet-end:[personalize.java2.list_solutions.import]
-
 /**
  * To run this Java V2 code example, ensure that you have setup your development environment, including your credentials.
  *
@@ -54,7 +53,7 @@ public class ListSolutions {
         listAllSolutions(personalizeClient, datasetGroupArn);
         personalizeClient.close();
     }
-
+//snippet-start:[personalize.java2.list_solutions.main]
     public static void listAllSolutions(PersonalizeClient personalizeClient, String datasetGroupArn) {
 
         try {
@@ -76,3 +75,4 @@ public class ListSolutions {
         }
     }
 }
+//snippet-end:[personalize.java2.list_solutions.main]
