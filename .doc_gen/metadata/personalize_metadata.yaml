@@ -22,7 +22,7 @@ personalize_createBatchInferenceJob:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_batch_inference_job.import
+                - personalize.java2.create_batch_inference_job.main
   services:
     personalize: {CreateBatchInferenceJob}
 personalize_createBatchSegmentJob:
@@ -56,7 +56,7 @@ personalize_createCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_campaign.import
+                - personalize.JavaScript.createCampaignV3
     Java:
       versions:
         - sdk_version: 2
@@ -65,7 +65,7 @@ personalize_createCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_campaign.import
+                - personalize.java2.create_campaign.main
   services:
     personalize: {CreateCampaign}
 personalize_createDataset:
@@ -91,7 +91,7 @@ personalize_createDataset:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_dataset.import
+                - personalize.java2.create_dataset.main
   services:
     personalize: {CreateDataset}
 personalize_createDatasetExportJob:
@@ -117,7 +117,7 @@ personalize_createDatasetExportJob:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_dataset_export_job.import
+                - personalize.java2.create_dataset_export_job.main
   services:
     personalize: {CreateDatasetExportJob}
 personalize_createDatasetGroup:
@@ -146,10 +146,10 @@ personalize_createDatasetGroup:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_dataset_group.import
+                - personalize.java2.create_dataset_group.main
             - description: Create a domain dataset group.
               snippet_tags:
-                - personalize.java2.create_domain_dataset_group.import
+                - personalize.java2.create_domain_dataset_group.main
   services:
     personalize: {CreateDatasetGroup}
 personalize_createDatasetImportJob:
@@ -175,7 +175,7 @@ personalize_createDatasetImportJob:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_dataset_import_job.import
+                - personalize.java2.create_dataset_import_job.main
   services:
     personalize: {CreateDatasetImportJob}
 personalize_createDomainSchema:
@@ -201,7 +201,7 @@ personalize_createDomainSchema:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_domain_schema.import
+                - personalize.java2.create_domain_schema.main
   services:
     personalize: {CreateSchema}
 personalize_createEventTracker:
@@ -227,7 +227,7 @@ personalize_createEventTracker:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_event_tracker.import
+                - personalize.java2.create_event_tracker.main
   services:
     personalize: {CreateEventTracker}
 personalize_createFilter:
@@ -253,7 +253,7 @@ personalize_createFilter:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_filter.import
+                - personalize.java2.create_filter.main
   services:
     personalize: {CreateFilter}
 personalize_createRecommender:
@@ -279,7 +279,7 @@ personalize_createRecommender:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_recommender.import
+                - personalize.java2.create_recommender.main
   services:
     personalize: {CreateRecommender}
 personalize_createSchema:
@@ -305,7 +305,7 @@ personalize_createSchema:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_schema.import
+                - personalize.java2.create_schema.main
   services:
     personalize: {CreateSchema}
 personalize_createSolution:
@@ -331,7 +331,7 @@ personalize_createSolution:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_solution.import
+                - personalize.java2.create_solution.main
   services:
     personalize: {CreateSolution}
 personalize_createSolutionVersion:
@@ -357,7 +357,7 @@ personalize_createSolutionVersion:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.create_solution_version.import
+                - personalize.java2.create_solution_version.main
   services:
     personalize: {CreateSolutionVersion}
 personalize_getPersonalizedRanking:
@@ -383,7 +383,7 @@ personalize_getPersonalizedRanking:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.get_personalized_ranking.import
+                - personalize.java2.get_personalized_ranking.main
   services:
     personalize: {GetPersonalizedRanking}
 personalize_getRecommendations:
@@ -415,13 +415,13 @@ personalize_getRecommendations:
           excerpts:
             - description: Get a list of recommended items.
               snippet_tags:
-                - personalize.java2.get_recommendations.import
+                - personalize.java2.get_recommendations.main
             - description: Get a list of recommended items from a recommender created in a domain dataset group.
               snippet_tags:
-                - personalize.java2.get_recommendations_from_recommender.import
+                - personalize.java2.get_recommendations_from_recommender.main
             - description: Use a filter when requesting recommendations.
               snippet_tags:
-                - personalize.java2.filter_recommendations.import
+                - personalize.java2.filter_recommendations.main
   services:
     personalize: {GetRecommendations}
 personalize_deleteCampaign:
@@ -438,7 +438,7 @@ personalize_deleteCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.delete_campaign.import
+                - personalize.java2.delete_campaign.main
   services:
     personalize: {DeleteCampaign}
 personalize_deleteEventTracker:
@@ -455,7 +455,7 @@ personalize_deleteEventTracker:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.delete_event_tracker.import
+                - personalize.java2.delete_event_tracker.main
   services:
     personalize: {DeleteEventTracker}
 personalize_deleteSolution:
@@ -472,7 +472,7 @@ personalize_deleteSolution:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.delete_solution.import
+                - personalize.java2.delete_solution.main
   services:
     personalize: {DeleteSolution}
 personalize_describeCampaign:
@@ -489,7 +489,7 @@ personalize_describeCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.describe_campaign.import
+                - personalize.java2.describe_campaign.main
   services:
     personalize: {DescribeCampaign}
 personalize_describeRecipe:
@@ -506,7 +506,7 @@ personalize_describeRecipe:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.describe_recipe.import
+                - personalize.java2.describe_recipe.main
   services:
     personalize: {DescribeRecipe}
 personalize_describeSolution:
@@ -523,7 +523,7 @@ personalize_describeSolution:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.describe_solution.import
+                - personalize.java2.describe_solution.main
   services:
     personalize: {DescribeSolution}
 personalize_listCampaigns:
@@ -540,7 +540,7 @@ personalize_listCampaigns:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.list_campaigns.import
+                - personalize.java2.list_campaigns.main
   services:
     personalize: {ListCampaigns}
 personalize_listDatasetGroups:
@@ -557,7 +557,7 @@ personalize_listDatasetGroups:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.list_dsgroups.import
+                - personalize.java2.list_dsgroups.main
   services:
     personalize: {ListDatasetGroups}
 personalize_listRecipes:
@@ -574,7 +574,7 @@ personalize_listRecipes:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.list_recipes.import
+                - personalize.java2.list_recipes.main
   services:
     personalize: {ListRecipes}
 personalize_listSolutions:
@@ -591,7 +591,7 @@ personalize_listSolutions:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.list_solutions.import
+                - personalize.java2.list_solutions.main
   services:
     personalize: {ListSolutions}
 personalize_putEvents:
@@ -617,7 +617,7 @@ personalize_putEvents:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.put_events.import
+                - personalize.java2.put_events.main
   services:
     personalize: {PutEvents}
 personalize_putItems:
@@ -643,11 +643,11 @@ personalize_putItems:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.put_items.import
+                - personalize.java2.put_items.main
   services:
     personalize: {PutItems}
 personalize_putUsers:
-  title:  incrementally import a user into an &PER; using an &AWS; SDK
+  title:  incrementally import users into an &PER; using an &AWS; SDK
   title_abbrev: Incrementally import a user
   synopsis: Incrementally import a user into &PER;.
   category:
@@ -669,7 +669,7 @@ personalize_putUsers:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.put_users.import
+                - personalize.java2.put_users.main
   services:
     personalize: {PutUsers}
 personalize_updateCampaign:
@@ -686,6 +686,6 @@ personalize_updateCampaign:
           excerpts:
             - description:
               snippet_tags:
-                - personalize.java2.update_campaign.import
+                - personalize.java2.update_campaign.main
   services:
     personalize: {UpdateCampaign}
