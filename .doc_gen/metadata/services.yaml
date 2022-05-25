@@ -200,7 +200,7 @@ personalize:
   long: "&PERSlong;"
   short: "&PERS;"
   sort: "Personalize"
-  version: personalize-2016-12-01
+  version: personalize-2018-05-22
   bundle: personalize
 pinpoint:
   long: "&PINlong;"

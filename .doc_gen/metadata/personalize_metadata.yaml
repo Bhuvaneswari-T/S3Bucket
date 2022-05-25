@@ -678,9 +678,9 @@ personalize_updateCampaign:
   synopsis: Update a campaign &PERS;.
   category:
   languages:
-    JavaScript:
+    Java:
       versions:
-        - sdk_version: 3
+        - sdk_version: 2
           github: javascipt/example_code/personalize
           sdkguide:
           excerpts:
