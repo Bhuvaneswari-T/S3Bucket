@@ -196,6 +196,12 @@ organizations:
   short: "&AO;"
   sort: "Organizations"
   version: organizations-2016-11-28
+personalize:
+  long: "&PERSlong;"
+  short: "&PERS;"
+  sort: "Personalize"
+  version: personalize-2016-12-01
+  bundle: personalize
 pinpoint:
   long: "&PINlong;"
   short: "&PIN;"
