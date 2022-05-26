@@ -360,46 +360,6 @@ personalize_createSolutionVersion:
                 - personalize.java2.create_solution_version.main
   services:
     personalize: {CreateSolutionVersion}
-personalize_getPersonalizedRanking:
-  title:  Get ranked recommendations from a campaign created in a custom dataset group with &PERS; using an &AWS; SDK
-  title_abbrev: Get recommendations (custom dataset group)
-  synopsis: get &PERS; ranked recommendations.
-  category:
-  languages:
-    Java:
-      versions:
-        - sdk_version: 2
-          github: javav2/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.java2.get_personalized_ranking.main
-  services:
-    personalize: {GetPersonalizedRanking}
-personalize_getRecommendations:
-  title:  Get recommendations from a campaign created in a custom dataset group with &PERS; using an &AWS; SDK
-  title_abbrev: Get recommendations from a recommender (domain dataset group)
-  synopsis: get &PERS; recommendations.
-  category:
-  languages:
-    Java:
-      versions:
-        - sdk_version: 2
-          github: javav2/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description: Get a list of recommended items.
-              snippet_tags:
-                - personalize.java2.get_recommendations.main
-            - description: Get a list of recommended items from a recommender created in a domain dataset group.
-              snippet_tags:
-                - personalize.java2.get_recommendations_from_recommender.main
-            - description: Use a filter when requesting recommendations.
-              snippet_tags:
-                - personalize.java2.filter_recommendations.main
-  services:
-    personalize: {GetRecommendations}
 personalize_deleteCampaign:
   title:  Delete a campaign in &PERS; using an &AWS; SDK
   title_abbrev: Delete a campaign
@@ -570,57 +530,6 @@ personalize_listSolutions:
                 - personalize.java2.list_solutions.main
   services:
     personalize: {ListSolutions}
-personalize_putEvents:
-  title:  Import real-time interaction event data into &PERS; using an &AWS; SDK
-  title_abbrev: Import real-time interaction event data
-  synopsis: import real-time interaction event data into &PERS;.
-  category:
-  languages:
-    Java:
-      versions:
-        - sdk_version: 2
-          github: javav2/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.java2.put_events.main
-  services:
-    personalize: {PutEvents}
-personalize_putItems:
-  title:  incrementally import an item into an &PERS; using an &AWS; SDK
-  title_abbrev: Import real-time interaction event data
-  synopsis: Import real-time interaction event data into &PERS;.
-  category:
-  languages:
-    Java:
-      versions:
-        - sdk_version: 2
-          github: javav2/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.java2.put_items.main
-  services:
-    personalize: {PutItems}
-personalize_putUsers:
-  title:  incrementally import users into an &PERS; using an &AWS; SDK
-  title_abbrev: Incrementally import a user
-  synopsis: Incrementally import a user into &PERS;.
-  category:
-  languages:
-    Java:
-      versions:
-        - sdk_version: 2
-          github: javav2/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.java2.put_users.main
-  services:
-    personalize: {PutUsers}
 personalize_updateCampaign:
   title:  Update a campaign in &PERS; using an &AWS; SDK
   title_abbrev: Update a campaign

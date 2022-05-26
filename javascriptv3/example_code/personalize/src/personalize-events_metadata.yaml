@@ -4,6 +4,15 @@ personalize-events_putEvents:
   synopsis: import real-time interaction event data into &PERS; Events.
   category:
   languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.put_items.main
     JavaScript:
       versions:
         - sdk_version: 3
@@ -38,6 +47,15 @@ personalize-events_putUsers:
   synopsis: Incrementally import a user into &PERS; Events.
   category:
   languages:
+    Java:
+      versions:
+        - sdk_version: 2
+          github: javav2/example_code/personalize
+          sdkguide:
+          excerpts:
+            - description:
+              snippet_tags:
+                - personalize.java2.put_users.main
     JavaScript:
       versions:
         - sdk_version: 3
