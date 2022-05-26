@@ -366,15 +366,6 @@ personalize_getPersonalizedRanking:
   synopsis: get &PERS; ranked recommendations.
   category:
   languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.getPersonalizedRankingV3
     Java:
       versions:
         - sdk_version: 2
@@ -392,21 +383,6 @@ personalize_getRecommendations:
   synopsis: get &PERS; recommendations.
   category:
   languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.getRecommendationsV3
-            - description: Get recommendation with a filter (custom dataset group).
-              snippet_tags:
-                - personalize.JavaScript.getRecommendationsFromRecommenderV3
-            - description: Get filtered recommendations from a recommender created in a domain dataset group.
-              snippet_tags:
-                - personalize.JavaScript.getRecommendationsWithFilterV3
     Java:
       versions:
         - sdk_version: 2
@@ -600,15 +576,6 @@ personalize_putEvents:
   synopsis: import real-time interaction event data into &PERS;.
   category:
   languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.putEventsV3
     Java:
       versions:
         - sdk_version: 2
@@ -626,15 +593,6 @@ personalize_putItems:
   synopsis: Import real-time interaction event data into &PERS;.
   category:
   languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.putItemsV3
     Java:
       versions:
         - sdk_version: 2
@@ -652,15 +610,6 @@ personalize_putUsers:
   synopsis: Incrementally import a user into &PERS;.
   category:
   languages:
-    JavaScript:
-      versions:
-        - sdk_version: 3
-          github: javascipt/example_code/personalize
-          sdkguide:
-          excerpts:
-            - description:
-              snippet_tags:
-                - personalize.JavaScript.putUsersV3
     Java:
       versions:
         - sdk_version: 2
