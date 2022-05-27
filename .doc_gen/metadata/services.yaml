@@ -201,19 +201,16 @@ personalize:
   short: "&PERS;"
   sort: "Personalize"
   version: personalize-2018-05-22
-  bundle: personalize
 personalize-runtime:
   long: "&PERSlong; Runtime"
   short: "&PERS; Runtime"
   sort: "Personalize Runtime"
-  version: personalize-2018-05-22
-  bundle: personalize
+  version: personalize-runtime-2018-05-22
 personalize-events:
   long: "&PERSlong; Events"
   short: "&PERS; Runtime"
   sort: "Personalize Events"
-  version: personalize-2018-05-22
-  bundle: personalize
+  version: personalize-events-2018-05-22
 pinpoint:
   long: "&PINlong;"
   short: "&PIN;"
