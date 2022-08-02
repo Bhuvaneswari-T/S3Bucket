@@ -1,0 +1,23 @@
+require 'rake/testtask'
+require 'rspec/core/rake_task'
+
+Rake::TestTask.new do |t|
+  t.pattern = "*/tests/test_*.rb"
+  t.verbose = true
+  t.warning = false
+end
+
+task :default => [:spec]
+
+desc "Run the specs."
+RSpec::Core::RakeTask.new do |t|
+  t.pattern = "iam/spec/*_spec.rb"
+end
+
+# desc 'Run rubocop'
+# task :rubocop do
+#   RuboCop::RakeTask.new
+# end
+#
+# require 'simplecov'
+# SimpleCov.start

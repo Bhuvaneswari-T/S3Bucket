@@ -7,15 +7,15 @@ require_relative "../iam_wrapper"
 describe "iam_wrapper usage demo" do
   inputs = %w(1 1 batch.amazonaws.com y)
 
-  context "runs against AWS (integration tests)", integ: true do
-    it "runs without errors", integ: true do
-      iam_resource = Aws::IAM::Resource.new
-      wrapper = IamWrapper.new(iam_resource)
-      allow(wrapper).to receive(:gets).and_return(*inputs)
-
-      expect { usage_demo(wrapper) }.not_to output(/Something went wrong with the demo/).to_stdout
-    end
-  end
+  # context "runs against AWS (integration tests)", integ: true do
+  #   it "runs without errors", integ: true do
+  #     iam_resource = Aws::IAM::Resource.new
+  #     wrapper = IamWrapper.new(iam_resource)
+  #     allow(wrapper).to receive(:gets).and_return(*inputs)
+  #
+  #     expect { usage_demo(wrapper) }.not_to output(/Something went wrong with the demo/).to_stdout
+  #   end
+  # end
 
   context "runs using stubs" do
     role_name = "test-role"

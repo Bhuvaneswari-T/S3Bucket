@@ -2,6 +2,7 @@
 # SPDX - License - Identifier: Apache - 2.0
 
 require_relative '../cw-ruby-example-alarm-actions'
+require 'rspec'
 
 describe '#alarm_created_or_updated?' do
   let(:alarm_name) { 'ObjectsInBucket' }

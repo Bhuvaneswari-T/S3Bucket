@@ -11,7 +11,7 @@ of your AWS account. Actions taken by a user, role, or an AWS service are record
 ### API examples
 - [Create a trail](./aws-ruby-sdk-cloudtrail-example-create-trail.rb)
 - [Delete a trail](./aws-ruby-sdk-cloudtrail-example-delete-trail.rb)
-- [Describe trails](./aws-ruby-sdk-cloudtrail-example-describe-trails.rb)
+- [describe trails](./aws-ruby-sdk-cloudtrail-example-describe-trails.rb)
 - [Lookup events](./aws-ruby-sdk-cloudtrail-example-lookup-events.rb)
 
 ## Important

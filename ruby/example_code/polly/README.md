@@ -9,7 +9,7 @@ and build entirely new categories of speech-enabled products.
 ## Code examples
 
 ### API examples
-- [Describe voices](./polly_describe_voices.rb)
+- [describe voices](./polly_describe_voices.rb)
 - [List lexicons](./polly_list_lexicons.rb)
 - [Synthesize speech](./polly_synthesize_speech.rb)
 
