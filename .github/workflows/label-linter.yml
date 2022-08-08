@@ -1,6 +1,6 @@
 name: "Lint Labels"
 
-on: [pull_request]
+on: [push]
 
 jobs:
   label-linter:
@@ -24,6 +24,7 @@ jobs:
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: .github/label-ruleset.yml
+
 
       # The Audit Labels workflow creates, renames, updates
       # or deletes labels based on a list of allowed labels.

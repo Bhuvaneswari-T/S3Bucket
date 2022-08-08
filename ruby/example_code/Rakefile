@@ -14,7 +14,9 @@ end
 
 desc "Run the specs."
 RSpec::Core::RakeTask.new do |t|
-  t.pattern = "iam/spec/*_spec.rb"
+  t.pattern = "sns/spec/*_spec.rb"
+  require 'simplecov'
+  SimpleCov.start
 end
 
 desc "Run the coverage report."

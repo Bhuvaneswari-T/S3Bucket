@@ -1,8 +1,10 @@
 source "https://rubygems.org"
+
 gem "aws-sdk"
 gem "rspec"
 gem "rubyzip"
 gem "rake"
 gem "rubocop"
 gem "rubocop-rake"
-gem "simplecov"
+gem 'simplecov'
+gem "rcov"
