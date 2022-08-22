@@ -9,3 +9,5 @@ gem "rubocop"
 gem "rubocop-rake"
 gem 'json'
 gem 'pp'
+gem "open-uri"
+gem "zip"
